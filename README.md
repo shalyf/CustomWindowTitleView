@@ -4,7 +4,7 @@
 
 ```objective-c
 NSView *themeView = [window.contentView superview];
-[themeView addSubview:viewCustom positioned:NSWindowBelow relativeTo:nil];
+[themeView addSubview:self.viewCustom positioned:NSWindowBelow relativeTo:nil];
 ```
 
 但是在Yosemite以后，运行以上代码，会得到一段警告：
