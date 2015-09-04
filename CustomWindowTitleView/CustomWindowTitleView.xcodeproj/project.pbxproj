@@ -86,8 +86,8 @@
 				FC41A1331B9816FB0059E2BE /* MainWindowController.h */,
 				FC41A1341B9816FB0059E2BE /* MainWindowController.m */,
 				FC41A1351B9816FB0059E2BE /* MainWindow.xib */,
-				FC41A11A1B9816C70059E2BE /* Images.xcassets */,
 				FC41A11C1B9816C70059E2BE /* MainMenu.xib */,
+				FC41A11A1B9816C70059E2BE /* Images.xcassets */,
 				FC41A1131B9816C70059E2BE /* Supporting Files */,
 			);
 			path = CustomWindowTitleView;

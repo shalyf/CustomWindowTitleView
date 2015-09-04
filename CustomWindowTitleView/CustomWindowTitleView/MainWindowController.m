@@ -37,7 +37,7 @@
     NSView *themeView = [window.contentView superview];
     
     if (NSAppKitVersionNumber <= NSAppKitVersionNumber10_9) {
-        
+    
         [themeView addSubview:self.viewCustom positioned:NSWindowBelow relativeTo:nil];
         
     } else {
@@ -50,7 +50,8 @@
         [containerView addSubview:self.viewCustom positioned:NSWindowBelow relativeTo:nil];
         
     }
-
+    
+    self.viewCustom.layer.cornerRadius = 5;
 }
 
 @end
